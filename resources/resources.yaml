@@ -4,7 +4,7 @@ metadata:
   name: cloud-pak-deployer-input
   namespace: cloud-pak-deployer
 data:
-  config-git-repo: https://github.com/arrow-martinpersson/cloud-pak-deployer-storage-fusion
+  config-git-repo: https://github.com/eriknils-arrow/cloud-pak-deployer-storage-fusion
 ---
 apiVersion: v1
 kind: ServiceAccount
