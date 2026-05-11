@@ -62,9 +62,6 @@ cp4d:
 
   - name: scheduler 
     state: removed
-
-  - name: model_gateway
-    state: installed
     
 #
 # All tested cartridges. To install, change the "state" property to "installed". To uninstall, change the state
