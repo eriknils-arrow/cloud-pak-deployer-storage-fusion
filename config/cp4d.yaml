@@ -23,7 +23,7 @@ cp4d:
   # - text-to-speech
   # - watson-assistant
   # - watson-discovery
-  - watsonx-ai
+  # - watsonx-ai
   # - watsonx-code-assistant
   # - watsonx-code-assistant-ansible
   # - watsonx-code-assistant-z
@@ -43,7 +43,7 @@ cp4d:
   # - watsonx-dataintelligence-transition-reserved-vpc
   # - watsonx-gov-mm
   # - watsonx-gov-rc
-  # - watsonx-orchestrate
+  - watsonx-orchestrate
   # - watson-orchestrate-with-assistant
   cp4d_production_license: True
   accept_licenses: True
@@ -351,7 +351,7 @@ cp4d:
 
   - name: watsonx_ai
     description: watsonx.ai
-    state: installed
+    state: removed
     installation_options:
       tuning_disabled: true
       liteInstall: false
@@ -545,7 +545,7 @@ cp4d:
 
   - name: watsonx_orchestrate
     description: watsonx.orchestrate
-    state: removed
+    state: installed
     instances:
     - name: wxo-instance
       description: "watsonx Orchestrate instance"
